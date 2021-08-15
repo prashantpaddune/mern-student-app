@@ -6,9 +6,9 @@ const helper = (state, payload) => {
     return state;
 }
 
-const deletee = (state, payload) => {
+const remove = (state, payload) => {
     // console.log('helper', state, payload);
-    return state.filter((input) => input._id !== payload._id)
+    return state.filter((input) => input._id !== payload)
 }
 
 const formReducer = (state = [], action) => {
@@ -20,7 +20,7 @@ const formReducer = (state = [], action) => {
         case 'UPDATE':
             return helper(state, action.payload)   
         case 'DELETE':
-            return deletee(state, action.payload)
+            return remove(state, action.payload)
         default: 
             return state;
     }
