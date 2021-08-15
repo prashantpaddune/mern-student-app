@@ -10,3 +10,12 @@ body {
 input[type='text'], input[type='date'] {
     all: unset;
 }
+
+.App {
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}

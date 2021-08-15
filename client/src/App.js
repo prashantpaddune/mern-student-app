@@ -16,7 +16,8 @@ const App = () => {
       }, [currentId, dispatch]);
 
     return (
-        <div className="App">
+        <div className="App pt-5">
+            <h1 className='heading'>Student Registration Platform</h1>
           <FormInput currentId={currentId} setCurrentId={setCurrentId} />
         </div>
     );
