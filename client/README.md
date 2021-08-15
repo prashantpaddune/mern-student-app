@@ -1,3 +1,30 @@
+# Student Registration [Client]
+
+A Simple UI build using ReactJS and bootstrap. Redux used for State Management.
+
+## Install
+
+```sh
+git clone https://github.com/prashantpaddune/mern-student-app
+cd client
+yarn install
+cp .env.example .env
+```
+
+**NOTE:** Do not forget to set the env variables in `.env` and replace the values there.
+If you are using heroku checkout how environment variables are set [here](https://devcenter.heroku.com/articles/config-vars).
+
+## Run the Application
+
+```sh
+yarn start
+```
+
+## License
+
+MIT
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

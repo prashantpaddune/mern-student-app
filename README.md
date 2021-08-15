@@ -9,8 +9,9 @@
 
 ## Overview
 
-**Student Registration Application.** A simple application using MongoDB, Express.js, React.js, and Node.js with Create, Read, Update, and Delete operations. REST API was implemented on the back-end. React was used for the UI.
+**Student Registration Application.** A simple application using MongoDB, Express.js, React.js, and Node.js with Create, Read, Update, and Delete operations. REST API was implemented on the back-end. React and bootstrap was used for the UI. Redux was used for State Management.
 
+#### Demo: http://165.22.222.166:3000/
 
 ## Features
 1. Add Student
@@ -21,9 +22,8 @@
 ## Screenshots
 
 <img
-width="210"
 alt="Capture 1"
-src="">
+src="https://github.com/prashantpaddune/mern-student-app/blob/master/screenshot/Screenshot.png" />
 
 
 ## Installation and usage
